@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+            function check (tab_id, data, tab)
+            {
+                if (tab.url.indexOf('reddit.com') > -1)
+                {
+                    chrome.pageAction.show(tab_id);
+                    
+                }
+            };
+            chrome.tabs.onUpdate.addListener(check);
+        </script>
+    </head>
+</html>

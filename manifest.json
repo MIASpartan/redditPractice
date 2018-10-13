@@ -1,0 +1,19 @@
+{
+    "name": "page action demo",
+    "manifest_version": 2,
+    "version": "0.01",
+    "description": "displays page action when the URL includes reddit.com",
+    "background_page": "background.html",
+    "page_action" :
+    {
+        "icon" :  "/redditPractice/star-icon.jpg",
+        "title" : "your on reddit :D"
+    },
+    "permissions" :[
+        "tabs"
+    ],
+    "icons" : {
+        "north_star":"/redditPractice/north_star.png",
+        "comet":"/redditPractice/comet.png"
+    }
+    }
